@@ -1,7 +1,10 @@
+import Index from '../../pages/index';
 import './app.scss';
 
 function App() {
-    <h1>TEST</h1>
+    <Index>
+        
+    </Index>
 }
 
 export default App;
