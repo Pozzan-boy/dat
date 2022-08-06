@@ -1,0 +1,118 @@
+.search-tools{
+    height: 71px;
+    max-width: 1109px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__find{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 90px;
+        padding-left: 19px;
+        &__btn{
+            position: relative;
+            border: 0;
+            background: none;
+            right: 22px;
+            transform: translateX(-50%);
+            &:hover{
+                cursor: pointer;
+            }
+            &::before{
+                content: '';
+                display: block;
+                height: 28px;
+                width: 1px;
+                background-color: rgba(0, 0, 0, 0.2); 
+                position: absolute;
+                right: 28px;
+                top: 6px;
+            }
+
+        }
+
+    }
+}
+.find_bar{
+    width: 342px;
+    height: 40px;
+}
+.phone_bar{
+    width: 260px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__number{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        
+        
+        &__wrapper{
+            width: 160px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__btn{
+            width: 10px;
+            height: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0;
+            background: none;
+        }
+    }
+}
+#back_call{
+    font-size: 14px;
+    line-height: 17px;
+    color: #84BE51;
+    text-decoration: underline;
+}
+.purchase_bar{
+    width: 205px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.round{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #8C3213;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0px 5px 14px rgba(140, 50, 19, 0.3);
+    }
+}
+.round-active{
+    // box-shadow: 0px 5px 14px rgba(140, 50, 19, 0.3);
+    // инверсия цветов
+
+}
+#total{
+    font-weight: 700;
+    font-size: 12px;
+
+}
