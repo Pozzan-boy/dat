@@ -1,0 +1,18 @@
+.header {
+    min-height: 930px;
+    padding-top: 20px;
+    background: url('../../resources/img/bg/header-bg.jpg') no-repeat center/cover;
+    background-position: 0px -45px;
+    background-size: auto 105%;
+    position: relative;
+    &__fermer {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: auto;
+        bottom: 0;
+        width: 960px;
+        height: 794px;
+    }
+    
+}
