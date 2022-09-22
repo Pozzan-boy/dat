@@ -1,6 +1,7 @@
 import NavMenu from "../../Components/Nav-menu/NavMenu";
 import NavSearch from "../../Components/NavSearch/NavSearch";
 import Header from "../../Components/Header/Header";
+import AboutUs from "../../Components/AboutUs/AboutUs";
 
 const Index = () => {
     return (
@@ -9,6 +10,7 @@ const Index = () => {
             <Header>
                 <NavSearch/>
             </Header>
+            <AboutUs />
         </>
     )
 }
