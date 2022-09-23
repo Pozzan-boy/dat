@@ -5,8 +5,10 @@
     background-position: 0px -45px;
     background-size: auto 105%;
     position: relative;
+
     &__fermer {
         position: absolute;
+        pointer-events: none;
         left: auto;
         right: 0;
         top: auto;
